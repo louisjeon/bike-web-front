@@ -1,14 +1,17 @@
 import React from "react";
 import Header from "./components/Header";
 import Home from "./menu/Home";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 import About from "./menu/About";
 import Products from "./menu/Products";
 import Stores from "./menu/Stores";
 import News from "./menu/News";
 import Support from "./menu/Support";
-import Signup from "./menu/Signup";
-import Login from "./menu/Login";
 
 const router = createBrowserRouter([
   {
@@ -34,14 +37,6 @@ const router = createBrowserRouter([
   {
     path: "support",
     element: <Support />,
-  },
-  {
-    path: "signup",
-    element: <Signup />,
-  },
-  {
-    path: "login",
-    element: <Login />,
   },
 ]);
 

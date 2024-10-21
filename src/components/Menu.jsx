@@ -44,10 +44,6 @@ const Menu = () => {
       <a href="/support">
         <h5>고객 지원</h5>
       </a>
-
-      <a href="/login">
-        <h5>로그인/회원가입</h5>
-      </a>
     </MenuWrapper>
   );
 };
