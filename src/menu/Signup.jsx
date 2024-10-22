@@ -1,16 +1,28 @@
+import axios from "axios";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Signup = () => {
-  if (password === password2) {
-    setError(null);
-    axios
-      .post("http://localhost:4000/signup", {
-        email,
-        password,
-      })
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
-  } else {
-    setError("비밀번호와 비밀번호 확인이 일치하지 않습니다.");
-  }
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
+  const [password2, setPassword2] = useState();
+  const [error, setError] = useState(null);
+  const navigate = useNavigate();
+
+  const signup = () => {
+    if (password === password2) {
+      setError(null);
+      axios
+        .post("http://localhost:4000/signup", {
+          email,
+          password,
+        })
+        .then((res) => console.log(res))
+        .catch((err) => console.log(err));
+    } else {
+      setError("비밀번호와 비밀번호 확인이 일치하지 않습니다.");
+    }
+  };
 
   return (
     <>
