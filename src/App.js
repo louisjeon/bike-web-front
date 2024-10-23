@@ -9,6 +9,9 @@ import News from "./menu/News";
 import Support from "./menu/Support";
 import Signup from "./menu/Signup";
 import Login from "./menu/Login";
+import Quadstar from "./product/Quadstar";
+import Magicquatturo1 from "./product/Magicquattuor1";
+import Magicquatturo2 from "./product/Magicquatturo2";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +46,18 @@ const router = createBrowserRouter([
     path: "signup",
     element: <Signup />,
   },
+  {
+    path: "quadstar",
+    element: <Quadstar/>,
+  },
+  {
+    path: "quatturo1",
+    element: <Magicquatturo1/>
+  },
+  {
+    path: "quatturo2",
+    element: <Magicquatturo2/>
+  }
 ]);
 
 const App = () => {

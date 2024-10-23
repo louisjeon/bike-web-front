@@ -94,17 +94,23 @@ const ProductImg = styled.img`
 
 
 const ProductName = styled.p`
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
   padding: 0;
   font: bold 18px 'arial';
 `
 
 const ProductContent = styled.p`
-  
+  font: bold 13px 'arial';
+  color: #494949;
+  &:hover{
+    cursor: pointer;
+    color: gray;
+  }
 `
 
 
 const Products = () => {
+
   return (
     <>
       <BannerWrapper>
@@ -117,12 +123,12 @@ const Products = () => {
           <Item>
             <ProductImg src={img}/>
             <ProductName>쿼드스타</ProductName>
-            <ProductContent></ProductContent>
+            <a href="quadstar" style={{textDecoration:'none'}}><ProductContent>자세히 보기</ProductContent></a>
           </Item>
           <Item>
             <ProductImg src={commingsoon}/>
             <ProductName>Comming Soon!</ProductName>
-            <ProductContent></ProductContent>
+            <ProductContent>자세히 보기</ProductContent>
           </Item>
         </ProductWrapper>
         <ProductTitle>보급형</ProductTitle>   
@@ -130,17 +136,17 @@ const Products = () => {
           <Item>
             <ProductImg src={img}/>
             <ProductName>매직콰트로1</ProductName>
-            <ProductContent></ProductContent>
+            <a href="quatturo1" style={{textDecoration:'none'}}><ProductContent>자세히 보기</ProductContent></a>
           </Item>
           <Item>
             <ProductImg src={img}/>
-            <ProductName>매직콰트로1, 2</ProductName>
-            <ProductContent></ProductContent>
+            <ProductName>매직콰트로2</ProductName>
+            <a href="quatturo2" style={{textDecoration:'none'}}><ProductContent>자세히 보기</ProductContent></a>
           </Item>
           <Item>
             <ProductImg src={commingsoon}/>
             <ProductName>Comming Soon!</ProductName>
-            <ProductContent></ProductContent>
+            <ProductContent>자세히 보기</ProductContent>
           </Item>
         </ProductWrapper>
       </ProductContainer>
