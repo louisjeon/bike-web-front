@@ -13,7 +13,7 @@ const Signup = () => {
     if (password === password2) {
       setError(null);
       axios
-        .post("http://localhost:4000/signup", {
+        .post("https://bike-web-back.vercel.app/signup", {
           email,
           password,
         })
