@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const MenuWrapper = styled.div`
   flex: 1;
@@ -21,6 +22,10 @@ const MenuWrapper = styled.div`
     color: gray;
   }
 `;
+
+const Hamburger = styled(GiHamburgerMenu)`
+  
+`
 
 const Menu = () => {
   return (
@@ -49,6 +54,7 @@ const Menu = () => {
         <h5>로그인/회원가입</h5>
       </a>
     </MenuWrapper>
+    
   );
 };
 
