@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import img from "../img/explore.png";
+// 회사 뉴스 및 이벤트 내용
+// 규정, 서엊ㄱ서 등 공지사항
 
 const Container = styled.div`
   margin: 20px 40px 30px 40px;
@@ -25,11 +27,11 @@ const Button = styled.div`
   margin: 0 10px;
   padding: 0;
   font: bold 14px "arial";
-  color: ${(props) => (props.active ? "#f33867" : "gray")};
+  color: ${(props) => (props.active ? "#82a5eb" : "gray")};
   cursor: pointer;
-  border-bottom: 2px solid ${(props) => (props.active ? "#f33867" : "transparent")};
+  border-bottom: 2px solid ${(props) => (props.active ? "#82a5eb" : "transparent")};
   &:hover {
-    color: ${(props) => (props.active ? "#f33867" : "darkgray")};
+    color: ${(props) => (props.active ? "#82a5eb" : "darkgray")};
   }
 `;
 
@@ -75,10 +77,10 @@ const Link = styled.a`
   margin: 10px 0;
   text-decoration: none;
   font: bold 13px "arial";
-  color: #f33867;
+  color: #82a5eb;
   border-bottom: 2px solid transparent;
   &:hover {
-    border-bottom: 2px solid #f33867;
+    border-bottom: 2px solid #82a5eb;
   }
 `;
 
