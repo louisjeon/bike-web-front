@@ -244,7 +244,7 @@ const Design = () => {
                 </MainContainer>
                 <SubContainer>
                     <SubWrapper ref={(el) => refs.current[1] = el} data-index={1} inView={inView[1]}>
-                        <SubTitle>ebii Box</SubTitle>
+                        <SubTitle>Quadstar Box</SubTitle>
                         <SubContent>지능형 차량 제어 상자에는 배터리 팩과 제어 상자를 비롯하여 라이딩을 수월하게 해주는 모든 것이 들어 있습니다.</SubContent>
                         <Img src={desgin1} alt="" />
                     </SubWrapper> 
@@ -261,11 +261,11 @@ const Design = () => {
                     <SubWrapper3>
                         <SubWrapper4 ref={(el) => refs.current[4] = el} data-index={4} inView={inView[4]}>
                             <SubTitle>합금 프레임</SubTitle>
-                            <SubContent>알루미늄 합금 프레임으로 제작된 ebii는 튼튼하면서 가볍습니다.</SubContent>
+                            <SubContent>알루미늄 합금 프레임으로 제작된 Quadstar는 튼튼하면서 가볍습니다.</SubContent>
                         </SubWrapper4>
                         <SubWrapper4 ref={(el) => refs.current[5] = el} data-index={5} inView={inView[5]}>
                             <SubTitle>싱글 사이드 모터</SubTitle>
-                            <SubContent>ebii는 싱글 사이드 허브 모터로 작동되어 콤팩트한 패키지에서 효율이 높습니다.</SubContent>
+                            <SubContent>Quadstar는 싱글 사이드 허브 모터로 작동되어 콤팩트한 패키지에서 효율이 높습니다.</SubContent>
                         </SubWrapper4>
                     </SubWrapper3>
                 </SubContainer>

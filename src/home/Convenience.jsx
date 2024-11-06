@@ -186,7 +186,7 @@ const Convenience = () => {
             </MainImgWrapper>
             <MainWrapper>
                 <MainTitle>편의성이 열쇠입니다</MainTitle>
-                <MainContent>일상적인 출퇴근을 용이하게 하고자, 편의성을 염두에 두고 ebii를 설계했습니다. 펑크 방지 타이어, 자동 잠금 시스템, 고속 충전 배터리 등, ebii가 생활 편의성을 높여 줍니다.</MainContent>
+                <MainContent>일상적인 출퇴근을 용이하게 하고자, 편의성을 염두에 두고 ebii를 설계했습니다. 펑크 방지 타이어, 자동 잠금 시스템, 고속 충전 배터리 등, Quadstar가 생활 편의성을 높여 줍니다.</MainContent>
             </MainWrapper>
             <SubContainer>
                 <SubWrapper3>

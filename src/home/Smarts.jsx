@@ -176,21 +176,21 @@ const Smarts = () => {
             <Container>
                 <Wrapper  ref={(el) => refs.current[0] = el} data-index={0} inView={inView[0]}>
                     <Title>나,나 자신,AI</Title>
-                    <Content>스마트 ebiiAssist는 라이더의 페달을 밟는 힘, 라이딩 여건, 선호하는 지원 수준에 적응하여, 시간이 지날수록 더 라이더에게 맞춤화된 경험을 학습힙니다.</Content>
+                    <Content>스마트 QuadstarAssist는 라이더의 페달을 밟는 힘, 라이딩 여건, 선호하는 지원 수준에 적응하여, 시간이 지날수록 더 라이더에게 맞춤화된 경험을 학습힙니다.</Content>
                     <Img src={smart1}/>
                 </Wrapper>
                 <Wrapper  ref={(el) => refs.current[1] = el} data-index={1} inView={inView[1]}>
                     <Title>번거러움은 이젠 그만, 자유롭게 라이딩하세요.</Title>
-                    <Content>기어 없이도, 문제없습니다. ebii 센서는 라이딩의 라이딩 여건, 페달을 밟는 힘을 감지한 후 필요한 힘을 전달하여, 이제껏 경험해보지 못한 부드러운 라이딩 경험을 선사합니다.</Content>
+                    <Content>기어 없이도, 문제없습니다. Quadstar 센서는 라이딩의 라이딩 여건, 페달을 밟는 힘을 감지한 후 필요한 힘을 전달하여, 이제껏 경험해보지 못한 부드러운 라이딩 경험을 선사합니다.</Content>
                     <Img src={smart2}/>
                 </Wrapper>
             </Container>
             <BannerWrapper>
-                <BannerTitle>Powered by ebiiGo</BannerTitle>
+                <BannerTitle>Powered by QuadstarGo</BannerTitle>
                 <BannerSubWrapper>
-                    <BannerContent>모바일 앱 ebiiGo에 연결하면 추런 경로, 배터리 수명, 주행 속도, 자동 잠금 설정을 비롯하여 도시를 둘러보는 동안 필요한 모든 정보가 제공됩니다.</BannerContent>
+                    <BannerContent>모바일 앱 QuadstarGo에 연결하면 추런 경로, 배터리 수명, 주행 속도, 자동 잠금 설정을 비롯하여 도시를 둘러보는 동안 필요한 모든 정보가 제공됩니다.</BannerContent>
                     <ButtonWrapper onClick={onClick}>
-                        <BannerButton>Explore ebiiGo</BannerButton>
+                        <BannerButton>Explore QuadstarGo</BannerButton>
                         <Right></Right>
                     </ButtonWrapper>
                 </BannerSubWrapper>
