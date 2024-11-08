@@ -282,7 +282,7 @@ const Safety = () =>{
                 <Img src={img}/>
                 <Comment>
                     <ImgTitle>첫째도 둘째도 안전.</ImgTitle>
-                    <ImgContent>이동 중에는 늘 우선순위이므로, ebii에 모든 최신 안전 기능을 탑재했습니다. 다가오는 차량 감지부터 서라운드 조명등 시스템까지, ebii는 보다 안전한 라이딩을 보장합니다.</ImgContent>
+                    <ImgContent>이동 중에는 늘 우선순위이므로, Quadstar에 모든 최신 안전 기능을 탑재했습니다. 다가오는 차량 감지부터 서라운드 조명등 시스템까지, Quadstar는 보다 안전한 라이딩을 보장합니다.</ImgContent>
                 </Comment>
             </ImgWrapper>
             <ContentWrapper>
@@ -303,23 +303,23 @@ const Safety = () =>{
                         <SubTitle2>특허받은 배터리 기술로 가장 최적화되고 안정적인 라이딩을 구현합니다.</SubTitle2>
                     </SubWrapper2>
                     <SubWrapper2  ref={(el) => refs.current[3] = el} data-index={3} inView={inView[3]}>
-                        <SubContent2>ebii의 배터리는 충전 및 방전 보호, 최적의 전지 배열, 매우 안전한 설계로 인증받아 무결성과 안정성을 보장합니다.<Button>배터리 안전 보고서 읽어 보기<Right/></Button></SubContent2>
+                        <SubContent2>Quadstar의 배터리는 충전 및 방전 보호, 최적의 전지 배열, 매우 안전한 설계로 인증받아 무결성과 안정성을 보장합니다.<Button>배터리 안전 보고서 읽어 보기<Right/></Button></SubContent2>
                     </SubWrapper2>
                 </SubContainer>
             </ContentWrapper>
             <BannerWrapper>
                 <BannerTitle>지켜봅니다. 건드릴 수 없습니다.</BannerTitle>
-                <BannerContent>자동 잠금 시스템과 GPS 위치 지정 기능이 있어, 자전거를 어디에 주차했는지 다시는 걱정할 일이 없습니다. ebii는 또한 라이더가 없을 때 누군가 ebii를 이동시키려 할 때마다 즉시 경보를 울리도록 설계되었습니다.</BannerContent>
+                <BannerContent>자동 잠금 시스템과 GPS 위치 지정 기능이 있어, 자전거를 어디에 주차했는지 다시는 걱정할 일이 없습니다. Quadstar는 또한 라이더가 없을 때 누군가 Quadstar를 이동시키려 할 때마다 즉시 경보를 울리도록 설계되었습니다.</BannerContent>
             </BannerWrapper>   
             <ContentWrapper>
              <SubContainer>
                     <SubWrapper2  ref={(el) => refs.current[4] = el} data-index={4} inView={inView[4]}>
                         <SubTitle>잃어버릴 일이 없습니다.</SubTitle>
-                        <SubContent>자전거 도난 가능성이 감지되면 즉시 알림을 받습니다. GPS 위치 지정은 어떤 상황에서든 ebii를 찾는 데 도움을 줍니다.</SubContent>
+                        <SubContent>자전거 도난 가능성이 감지되면 즉시 알림을 받습니다. GPS 위치 지정은 어떤 상황에서든 Quadstar를 찾는 데 도움을 줍니다.</SubContent>
                     </SubWrapper2>
                     <SubWrapper2  ref={(el) => refs.current[5] = el} data-index={5} inView={inView[5]}>
                         <SubTitle>항상 안전합니다</SubTitle>
-                        <SubContent>ebii는 휴대폰이 연결 범위를 벗어났음을 감지하면 자동으로 잠깁니다..</SubContent>
+                        <SubContent>Quadstar는 휴대폰이 연결 범위를 벗어났음을 감지하면 자동으로 잠깁니다..</SubContent>
                     </SubWrapper2>
                 </SubContainer>
             </ContentWrapper>

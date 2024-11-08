@@ -195,15 +195,15 @@ const Specs = () => {
     return(
        <>
         <Container>
-                <MainTitle>숫자로 보는 ebii</MainTitle>
+                <MainTitle>숫자로 보는 Quadstar</MainTitle>
                 <Wrapper>
                     <ContentWrapper>
                         <ContentTitle>23.5kg</ContentTitle>
-                        <Content>ebii는 무게가 23.5kg에 불과하여, 도시를 돌아다니는 데 완벽한 동반자가 됩니다.</Content>
+                        <Content>Quadstar는 무게가 23.5kg에 불과하여, 도시를 돌아다니는 데 완벽한 동반자가 됩니다.</Content>
                     </ContentWrapper>
                     <ContentWrapper>
                         <ContentTitle>145 ~ 185cm</ContentTitle>
-                        <Content>접근성을 염두에 두고 설게된 ebii는 다양한 키, 몸집, 숙련도의 라이더들에게 적합합니다.</Content>
+                        <Content>접근성을 염두에 두고 설게된 Quadstar는 다양한 키, 몸집, 숙련도의 라이더들에게 적합합니다.</Content>
                     </ContentWrapper>
                     <ContentWrapper>
                         <ContentTitle>160mm 브레이크</ContentTitle>
@@ -211,15 +211,15 @@ const Specs = () => {
                     </ContentWrapper>
                     <ContentWrapper>
                         <ContentTitle>25km/h</ContentTitle>
-                        <Content>최대 지원 속도가 시간당 25km인 ebii는 스트레스 없이 라이딩을 즐길 수 있도록 해줍니다.</Content>
+                        <Content>최대 지원 속도가 시간당 25km인 Quadstar는 스트레스 없이 라이딩을 즐길 수 있도록 해줍니다.</Content>
                     </ContentWrapper>
                     <ContentWrapper>
                         <ContentTitle>110km</ContentTitle>
-                        <Content>곳곳에 데려다 줄 수 있는 ebii는 한 번 충전에 110km까지 도달 가능합니다.</Content>
+                        <Content>곳곳에 데려다 줄 수 있는 Quadstar는 한 번 충전에 110km까지 도달 가능합니다.</Content>
                     </ContentWrapper>
                     <ContentWrapper>
                         <ContentTitle>2.5시간</ContentTitle>
-                        <Content>단 2.5시간을 들이면 ebii가 0에서 100으로 충전되어, 이동에 문제 없습니다!.</Content>
+                        <Content>단 2.5시간을 들이면 Quadstar가 0에서 100으로 충전되어, 이동에 문제 없습니다!.</Content>
                     </ContentWrapper>
                 </Wrapper>
                 <SubTitle onClick={() => handleClick(0)}>사양{show[0]?<Up/>:<Down/>}</SubTitle>
@@ -270,9 +270,9 @@ const Specs = () => {
                 {show[3] ? 
                     <SubContentContainer>
                         <SubContentWrapper><SubContentName>디지털 키 및 자동 잠금 해제</SubContentName><SubContent>있음</SubContent></SubContentWrapper>
-                        <SubContentWrapper><SubContentName>ebiiSecure</SubContentName><SubContent>있음</SubContent></SubContentWrapper>
+                        <SubContentWrapper><SubContentName>QuadstarSecure</SubContentName><SubContent>있음</SubContent></SubContentWrapper>
                         <SubContentWrapper><SubContentName>라이딩 대시보드 및 내비게이션</SubContentName><SubContent>있음</SubContent></SubContentWrapper>
-                        <SubContentWrapper><SubContentName>ebiiRide</SubContentName><SubContent>있음</SubContent></SubContentWrapper>
+                        <SubContentWrapper><SubContentName>QuadstarRide</SubContentName><SubContent>있음</SubContent></SubContentWrapper>
                         <SubContentWrapper><SubContentName>활동 추적 및 달성</SubContentName><SubContent>있음</SubContent></SubContentWrapper>
                     </SubContentContainer>: null
                 }

@@ -17,9 +17,9 @@ const Logo = styled.img`
   padding: 0;
   margin: 0;
   margin-left: 20px;
-  height: auto;
+  height: 60px;
   width: 80px;
-
+  margin-top: 5px;
 `;
 
 const Header = () => {
