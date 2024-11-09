@@ -1,6 +1,6 @@
-import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { customAxios } from "../customAxios";
 
 const Signup = () => {
   const [email, setEmail] = useState();
@@ -15,8 +15,8 @@ const Signup = () => {
       if (password.length >= 8) {
         if (password === password2) {
           setError(null);
-          axios
-            .post(`${process.env.REACT_APP_API}/signup`, {
+          customAxios
+            .post("/signup", {
               email,
               password,
             })
