@@ -46,9 +46,14 @@ const ProductContainer = styled.div`
 
 const ProductTitle = styled.div`
   font: bold 20px 'arial';
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid; 
+  border-image: linear-gradient(45deg, #4bcec0, #4793ef) 1; // 그라디언트를 보더에 적용
+  border-image-slice: 1; 
   margin: 30px 0;
   padding: 0;
+  background: linear-gradient(45deg, #4bcec0, #4793ef);
+  -webkit-background-clip: text;
+  color: transparent;
 `
 
 const ProductWrapper = styled.div`
@@ -86,7 +91,6 @@ const ProductImg = styled.img`
   padding: 0;
   width: 100%;
   transition: transform 0.3s ease; /* 애니메이션 추가 */
-
   &:hover {
     transform: scale(1.1); /* hover 시 이미지 110% 확대 */
   }
@@ -97,11 +101,16 @@ const ProductName = styled.p`
   margin: 20px 0 10px 0;
   padding: 0;
   font: bold 18px 'arial';
+  background: linear-gradient(45deg, #4bcec0, #4793ef);
+  -webkit-background-clip: text;
+  color: transparent;
 `
 
 const ProductContent = styled.p`
-  font: bold 13px 'arial';
-  color: #494949;
+  font: 500 12px 'arial';
+  color: black;
+  margin: 5px 0;
+  margin-bottom: 20px;
   &:hover{
     cursor: pointer;
     color: gray;
