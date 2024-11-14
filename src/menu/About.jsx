@@ -23,7 +23,7 @@ const Banner = styled.div`
   background-size: cover;
   background-position: center;
   position: relative;
-  z-index: 99;
+  z-index: 50;
   font: bold 50px 'arial';
   color: white;
   margin: 0;

@@ -63,7 +63,6 @@ const ProductWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 0.5px solid black;
   @media screen and (min-width : 768px) {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -81,6 +80,8 @@ const Item = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 0.5px solid black;
+  margin-bottom: 20px;
   &:hover{
     cursor: pointer;
   }
@@ -109,7 +110,7 @@ const ProductName = styled.p`
 const ProductContent = styled.p`
   font: 500 12px 'arial';
   color: black;
-  margin: 5px 0;
+  margin: 0;
   margin-bottom: 20px;
   &:hover{
     cursor: pointer;

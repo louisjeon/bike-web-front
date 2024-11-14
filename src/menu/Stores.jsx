@@ -15,7 +15,9 @@ const Title = styled.p`
   margin: 0;
   margin-top: 50px;
   font: bold 30px 'arial';
-  color: #57abef;
+  background: linear-gradient(45deg, #4bcec0, #4793ef);
+  -webkit-background-clip: text;
+  color: transparent;
   @media screen and (min-width: 768px) {
     font-size:40px;
   }
